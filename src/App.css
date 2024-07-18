@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  padding: 0.25rem;
+}
+
+.navbar-logo a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Home Styles */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88.8vh;
+  background-image: url('./assets/coffee.webp');
+  background-size: cover;
+  color: white;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.order-button {
+  padding: 0.5rem 1rem;
+  background-color: #ff6347;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* About Styles */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88.8vh;
+  background-image: url('./assets/coffee.webp');
+  background-size: cover;
+  color: white;
+}
+
+.about-content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+/* My Orders Styles */
+.orders {
+  padding: 2rem;
+  color: #333;
+}
+
+.orders ul {
+  list-style: none;
+}
+
+.orders li {
+  background: #f9f9f9;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+/* Style for the login container */
+.login {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the heading */
+.login h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Style for the form labels */
+.login label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+/* Style for the input fields */
+.login input[type="text"],
+.login input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the login button */
+.login button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Style for the login button on hover */
+.login button[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Style for the login link container */
+.login-link {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the login link */
+.login-link a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style for the login link on hover */
+.login-link a:hover {
+  background-color: #45a049; /* Darker green on hover */
+  text-decoration: underline; /* Underline text on hover */
+}
+
+
+/* Style for the create account section */
+.create-account {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the create account link */
+.create-account a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Style for the create account link on hover */
+.create-account a:hover {
+  text-decoration: underline;
+}
+
+
+/* Cart Styles */
+.cart {
+  padding: 2rem;
+  color: #333;
+}
+
+.cart ul {
+  list-style: none;
+}
+
+.cart li {
+  background: #f9f9f9;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+/* src/components/CreateAccount.css */
+
+.create-account {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-account h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.create-account form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-account label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.create-account input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.create-account button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-account button:hover {
+  background-color: #0056b3;
+}
